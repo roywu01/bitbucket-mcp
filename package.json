@@ -1,7 +1,7 @@
 {
-  "name": "bitbucket-mcp",
-  "version": "5.0.6",
-  "description": "Model Context Protocol (MCP) server for Bitbucket Cloud and Server API integration",
+  "name": "@roywu01/bitbucket-mcp",
+  "version": "5.0.7",
+  "description": "Model Context Protocol (MCP) server for Bitbucket Cloud and Server API integration (fork with resolveComment fix)",
   "mcpName": "io.github.MatanYemini/bitbucket-mcp",
   "type": "module",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc && chmod +x dist/index.js",
+    "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
     "prepublishOnly": "npm run build",
